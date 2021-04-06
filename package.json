@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "lerna exec --scope ui-web -- yarn dev",
+    "exp-web": "lerna exec --scope example-web -- yarn dev"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

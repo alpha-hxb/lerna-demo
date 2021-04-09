@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "web": "lerna exec --scope ui-web -- yarn dev",
+    "build-web":"lerna exec --scope ui-web -- yarn build",
     "exp-web": "lerna exec --scope example-web -- yarn dev"
   },
   "devDependencies": {
